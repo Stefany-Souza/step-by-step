@@ -1,0 +1,351 @@
+header{
+    margin: 2px;
+   padding: 5px;
+   background-color: #c17767;
+}
+header img{
+    width: 30%;
+    margin: 0% 35%;
+}
+.tituloh1 {
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    color: white;
+    font-size: 250%;
+    text-shadow: 0 0 3px rgb(0, 0, 0);
+}
+nav{
+    background-color: #c17767;
+    padding: 2px;
+    margin: 1px;
+}
+nav ul{
+    box-sizing: border-box;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Sansita Swashed', cursive;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    color: #210203;
+    text-decoration: underline;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.5s;
+}
+nav ul li a:active{
+    background-color: #ef6f6c;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+body{
+
+   background-color: #fed9b7;
+}
+article{
+   background-color: #ffc9b9;
+    margin: 30px 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    clear: both;
+    
+}
+ul li{
+    font-family: 'Quicksand', 'Prata';
+    font-size: 18px;
+
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100%;
+    text-align: justify;
+}
+h3{
+    font-family: 'Sansita Swashed', cursive;
+    background-color: #f07167;
+    margin-right: 50%;
+    text-align: center;
+    color:#210203;
+    border-radius: 40px;
+    padding: 2px;
+    font-size: 140%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+main{
+    margin: 5%;
+    padding: 10px;
+}
+section{
+    padding: 0px;
+}
+.imagens1{
+    padding: 4px;
+    float: right;
+    width: 30%;
+}
+.imagens2{
+    padding: 10px;
+    float: left;
+    width: 20%;
+}
+.idiomsh2{
+    width: 35%;
+    margin-left: 33.5%;
+}
+.gifs{
+    padding: 10px;
+    float: left;
+    width: 150px;
+}
+.frases{
+    background-color: #f0706756;
+}
+article ul li{
+    color: #f07167;
+}
+article video{
+    margin: 0;
+}
+.videosSeparados1{
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 5px;
+    width: 320px;
+    margin: 10px;
+    border: 2px solid black;
+    background-color: white;
+}
+.videosSeparados2{
+    float: right;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 5px;
+    width: 320px;
+    margin: 10px;
+    border: 2px solid black;
+    background-color: white;
+}
+.legenda{
+    padding: 0px 10px 0px 10px;
+    color: black;
+    text-align: center;    
+}
+mark{
+    background-color: #a1c084b5;
+}
+#apresentacao{
+    padding: 30px;
+    clear: both;
+}
+.spanlista{
+    color: black;
+    font-weight: bold;
+}
+#BoasVindasHtml img{
+    float: left;
+    width: 200px;
+}
+aside{
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    width: 30%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#frase3, #frase4, #frase5, #frase6, #frase7, #frase8, #frase9 {
+    width: 450px;
+    text-align: center;
+    margin: 5px 2px 35px 5px;;
+    
+}
+#input3, #input4, #input5, #input6, #input7, #input8, #input9{
+    border: 2px solid black;
+    background-color:white;
+    margin-left: 2px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    width: 400px;
+    height: 35px;
+}
+#botao3, #botao4, #botao5, #botao6, #botao7, #botao8, #botao9{
+    height: 35px;
+    width: 35px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+#botao3:hover, #botao4:hover, #botao5:hover, #botao6:hover, #botao7:hover, #botao8:hover, #botao9:hover{
+    background-color: #c17767 ;
+    color: white;
+    transition-duration: 0.5s;
+    border: 2px solid black;
+}
+.motivacionais{
+    width: 225px;
+    float: right;
+    margin-right: 18%;
+  
+}
+
+footer{
+    margin: 2px;
+    padding: 5px;
+    background-color: #c17767;
+    border-top: 4px solid #a35949;
+    text-align: center;
+    clear: both;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; 
+    animation: spin 2s linear infinite;
+    margin: 5px auto;
+  }
+/* JAVA SCRIPT */
+.htmlnojava{
+    margin: 40px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    clear: both;
+}
+.htmlnojava h2{
+    font-family: 'Quicksand', sans-serif;
+}
+.htmlnojava p{
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+
+}
+input{
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #ef6f6c;
+    background-color:white;
+    margin-left: 2px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+button{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #426a5a;
+    background-color: #7fb685;
+    font-family: 'Quicksand', sans-serif;
+}
+button:hover{
+    background-color: #426a5a;
+    color: white;
+    transition-duration: 0.5s;
+    border: 2px solid #7fb685;
+}
+#pBemVindo{
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+    text-align: justify;
+}
+#h2BemVindo{
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    background-color: #f0706776;
+    text-align: center;
+}
+#BoasVindasHtml{
+    background-color: #fed9b7;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    width: 60%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CURSO - SEGUNDA PARTE HTML */
+.headercurso{
+    background-color: #c17767;
+    padding: 10px;
+    animation: tituloheader 0.3s linear 5 alternate;
+}
+.ImagemTitulo{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+#agradecimento{
+    background-color: #ffc9b9;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    clear: both;
+
+}
+#links{
+    background-color: #c17767;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    clear: both;
+}
+#links h2{
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+
+}
+#agradecimento h2{
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    clear: both;
+    font-size: 30px;
+}
+#links p{
+    text-align: justify;
+    padding: 20px;
+}
+.imagenscurso{
+    width: 60px;
+    height: 60px;
+}
+#links ul{
+        box-sizing: border-box;
+        padding: 0;
+        list-style-type: none;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+}
+/* ANIMAÇÕES */
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
